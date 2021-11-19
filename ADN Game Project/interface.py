@@ -96,7 +96,7 @@ class functions:
 
 f1=functions()
 
-#hovering functions
+#this class contains hovering functions
 class hovering:
     def __init__(self):
         pass
