@@ -7,6 +7,7 @@ pygame.font.init()
 
 WIDTH, HEIGHT = 800, 800
 
+#the main game  window
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 pygame.display.set_caption("INVADE THE SPACE")
