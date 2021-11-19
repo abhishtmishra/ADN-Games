@@ -97,7 +97,7 @@ class Game:
         self.score_display()
         pygame.display.flip()
 
-        #snake colliding with apple
+        #when snake collides with apple
         if self.collision(self.snake.x[0],self.snake.y[0],self.apple.x,self.apple.y):
             self.snake.increase_length()
             self.apple.move()
