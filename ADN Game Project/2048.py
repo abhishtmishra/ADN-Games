@@ -22,7 +22,7 @@ class Game_2048(tk.Frame):
         self.master.bind("<Up>",self.up)
         self.master.bind("<Down>",self.down)
 
-        self.mainloop() 
+        self.main() 
 
     def make_grid_GUI(self):
         self.cells = []
